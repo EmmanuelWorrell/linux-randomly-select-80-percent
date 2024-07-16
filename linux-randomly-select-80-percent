@@ -1,0 +1,1 @@
+mkdir -p blank && mv $(ls | shuf -n $(echo "$(ls | wc -l) * 0.8 / 1" | bc)) blank/
